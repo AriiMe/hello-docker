@@ -58,7 +58,8 @@ CMD node /app/app.js
 
 # Building docker image
 
-v Command    -t: tag v name   v where docker can find the dockerfile
+   -t: tag    . where docker can find the dockerfile
+
 docker build -t hello-docker .
 
 
