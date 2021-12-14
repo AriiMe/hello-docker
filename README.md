@@ -45,15 +45,14 @@ dev uploads the image to registry like docker hub(storage) after that it will wo
 
 
 # DOCKER TUT
-mkdir 'folder-name-no-quotes'
-cd 'you know what it is bro'
-creat file named Dockerfile (capital D)
-inside of it 
+mkdir folder-name
+cd folder-name
+create a file named Dockerfile (capital D) inside of it 
 
-	(v can be linux or whatever, alpine is linux distr)
 FROM node:alpine
-	(v commands to run the application)
+
 CMD node /app/app.js
+
 (alternative to above: WORKDIR /app)
 
 
