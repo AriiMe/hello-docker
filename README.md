@@ -85,5 +85,7 @@ docker push username/dockerhub:nameoftheimagepush
 # PULLING DOCKER (TESTED ON UBUNTU)
 
 docker pull username/nameoftheimage
+
 docker image ls
+
 docker run imagenamehere
